@@ -69,3 +69,38 @@ background-color:#4ab25c;}
     border-radius: 50%;
     position: relative;
 }
+
+#search-banner{
+    max-width: 1250px;
+    height: 500px;
+    border-radius: 30px;
+    background-color: #ecf7ee;
+    margin: 10px auto;
+    position: relative;
+    overflow: hidden;
+    background-image: url(../images/bg.png);
+    background-repeat: no-repeat;
+    background-size: 1000px;
+    background-position: bottom right;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.search-banner-text{
+    display: flex;
+    flex-direction: column;
+    /* width: 500px; */
+    margin-left: 70px;
+    position: relative;
+}
+.search-banner-text h1{
+    font-size: 3rem;
+    line-height: 55px;
+    color: #202020;
+}
+.search-banner-text strong{
+    color: #4eb060;
+    font-size: 1.4rem;
+    margin-top: 4px;
+}
